@@ -1,9 +1,13 @@
 package model.Entity;
 
+import lombok.Data;
+
+
 import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
+@Data
 public class Cliente {
 
     @Id
@@ -17,4 +21,5 @@ public class Cliente {
     private String cpf;
 
     private LocalDate dataCadastro;
+
 }
