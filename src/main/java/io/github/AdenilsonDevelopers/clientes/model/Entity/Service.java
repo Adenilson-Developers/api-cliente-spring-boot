@@ -1,4 +1,4 @@
-package model.Entity;
+package io.github.AdenilsonDevelopers.clientes.model.Entity;
 
 import lombok.Data;
 
